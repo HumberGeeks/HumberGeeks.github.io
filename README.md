@@ -1,15 +1,19 @@
 # HumberGeeks.github.io
 
-## HUMBER MADIA PROS
+## HUMBER MEDIA PROS
+
+### Group Members
+
+Add me to  git repo
 - AVLEEN
 
-## ROLES AND RESPONSIBILTIES
+### ROLES AND RESPONSIBILTIES
 
 - Design
 - Testing
 - Bugs resolve
 
-## Github homepage
+### Github homepage
 
 https://github.com/HumberGeeks/HumberGeeks.github.io.git
 
