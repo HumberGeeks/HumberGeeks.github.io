@@ -19,5 +19,3 @@ Add me to  git repo
 https://github.com/HumberGeeks/HumberGeeks.github.io/tree/Avleen-branch
 
 ## close
-
- 
