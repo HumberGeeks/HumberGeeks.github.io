@@ -9,7 +9,7 @@ export default class Home extends Page {
         <img src="img/3.jpg" alt="Student" class="student">
         <h3>Welcome To School of Humber</h3>
         <p>Take theory, add practical learning, state-of-the-art labs and creative spaces and you will unleash innovative and entrepreneurial thinking. Integrate opportunities to move from a certificate to a diploma to a degree and beyond. Add in international partnerships to help you broaden your learning experience and develop intercultural skills – that’s the formula that makes Humber a global leader in polytechnic education.</p>
-        <a href="#" class="link">Read more --></a>
+        <a href="#" class="link">Read more</a>
     </section>
     <section class="register">
     <div>
@@ -20,7 +20,7 @@ export default class Home extends Page {
     <div>
         <h3>Humber Center of Innovation</h3>
         <p>Humber’s network of Centres of Innovation (COIs) bring together interdisciplinary teams of faculty, students, and partners to solve complex, real-world problems.Humber's network of Centres of Innovation (COIs) bring together interdisciplinary teams of faculty, students, and community and industry partners to solve complex, real-world problems. COIs provide an experiential learning environment for Humber students and prepares them to become the innovative and strategic problem-solvers of tomorrow.</p>
-        <a href="#" class="link">Center of Innovation --></a>
+        <a href="#" class="link">Center of Innovation</a>
     </div>
     </section>
 </section>

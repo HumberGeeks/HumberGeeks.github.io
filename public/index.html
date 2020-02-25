@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <div> 
+  <div>
     <a href="#" class="nav">Home </a>
     <a href="#" class="nav">Explore</a>
     <a href="#" class="nav">Resources</a>
@@ -19,10 +19,24 @@
     <a href="#" class="nav">Reslovation</a>
     <a href="#" class="nav">Global</a>
     <a href="#" class="nav">About</a>
-    <a href="#" class="nav">Login</a><i class="fas fa-sign-in-alt"></i>
-    <a href="#" class="nav">Login Out</a> <i class="fas fa-sign-in-alt"></i>
+    <a href="#" class="nav">Login</a><i class="fas fa-sign-in-alt" id="lin"></i>
+    <a href="#" class="nav">Login Out</a> <i class="fas fa-sign-in-alt" id="lout"></i>
+    <span class="nl" style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick = "closeNav()">&times;</a> 
+    <a href="#">Home </a>
+    <a href="#">Explore</a>
+    <a href="#">Resources</a>
+    <a href="#">Gallery</a>
+    <a href="#">Reslovation</a>
+    <a href="#">Global</a>
+    <a href="#">About</a>
+    <a href="#">Login</a>
+    <a href="#">Login Out</a>
 </div>
   <header class="head">
+
     <div class="logo_container">
       <img src="img/logo.png" class="logo">
     </div>
@@ -68,6 +82,16 @@
   </footer>
 
   <script src="/js/app.js" type="module"></script>
+  <script>
+  function openNav()
+{
+	document.getElementById("mySidenav").style.width="250px";
+}
+function closeNav()
+{
+	document.getElementById("mySidenav").style.width="0px";
+}
+  </script>
 </body>
 
 </html>

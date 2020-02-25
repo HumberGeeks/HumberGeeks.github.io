@@ -188,6 +188,47 @@ input{
     color: black;
     padding-left: 5rem;
 }
+/*---------------SideNav-------------*/
+.nl
+{
+    display: none;
+}
+.sidenav
+{
+    height: 100%;
+    width: 0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color: #111;
+    overflow-x:hidden;
+    transition:0.5s;
+    padding-top:60px;
+}
+
+.sidenav a
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration:none;
+    font-size:25px;
+    color: #818181;
+    display:block;
+    transition:0.3s;
+}
+.sidenav a:hover
+{
+    color:#f1f1f1;
+}
+
+.sidenav .closebtn
+{
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left:50px;
+}
 @media screen and (min-width:300px) and (max-width: 600px) {
     header{
        min-height: 35rem;
@@ -208,13 +249,7 @@ input{
      
 
      .nav{
-        margin-top:8rem;
-        margin-left: 2.5em;;
-        font-size: 1.5rem;
-        color:black;
-        text-decoration-line: none;
-        text-align: right;
-        padding-left: 2em;
+       display: none;
      }
       /*promotional*/
  .promo{
@@ -313,6 +348,18 @@ input{
     color: black;
     padding-left: 5rem;
 }
+.nl
+{
+    display: block;
+}
+#lin
+{
+    display: none;
+}
+#lout
+{
+    display: none;
+}
 }
 @media screen and (min-width: 800px) and  (max-width:1800px) {
     .nav{
@@ -395,8 +442,8 @@ h4{
 }
 input{
     padding-left: 2rem;
-    height: 1rem;
-    width: 12rem;
+    height: 1.5rem;
+    width: 15rem;
     margin-top: 2rem;
 }
 .icons{

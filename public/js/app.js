@@ -21,11 +21,14 @@ const gotoPage = (name) => {
 	$main.innerHTML = routes[name].getHTML() // Put the HTML in the container
 }
 
+
 // If someone uses the browser back/forward functionality, redirect
 window.addEventListener('popstate', event => {
 	const route = event.state.path
 	gotoPage(route);
 })
+
+
 
 // When the page loads...
 window.addEventListener('load', event => {
@@ -50,3 +53,4 @@ window.addEventListener('load', event => {
 		})
 	})
 })
+
