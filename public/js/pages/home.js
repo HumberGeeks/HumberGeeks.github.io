@@ -3,8 +3,8 @@ import Page from '../page.js'
 export default class Home extends Page {
 	constructor() {
 		super()
-		this.html = `
-			<section class="promo">
+        this.html = `    
+   <section class="promo">
     <section class="profileview">
         <img src="img/3.jpg" alt="Student" class="student">
         <h3>Welcome To School of Humber</h3>
