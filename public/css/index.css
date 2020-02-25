@@ -6,7 +6,7 @@
 /*header*/
 header{
     margin-top: 1rem;
-    background-image: url(../img/6.jpg);
+    background-image: url(../img/5.jpg);
     backface-visibility: inherit;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,9 +30,13 @@ header{
     margin-right:5rem ;
     height: 4rem;
     width: 10rem;
-    border: 2px solid burlywood;
-    color:black;
+    border: 2px solid black;
+    color:#D12B63;
     font-size: 1.5rem;
+ }
+ .apply:hover{
+     color: white;
+     background-color:#D12B63;
  }
 .logo{
     text-align: center;
@@ -43,7 +47,7 @@ header{
  .nav{
     margin-top:2rem;
     font-size: 1.5rem;
-    color:black;
+    color: black;
     text-decoration-line: none;
     text-align: right;
     padding-left: 10rem;
@@ -88,14 +92,27 @@ header{
      background-color: white;
      border: 2px solid rgb(14, 13, 13);
      padding: 0.5rem;
-     margin: 1rem;
+     margin: 1.5rem;
+     text-align: center;
  }
+ .link:hover{
+    color: white;
+    background-color:#D12B63;
+}
  .programme{
      font-size: 1rem;
     color:#D12B63;
     border: 2px solid rgb(14, 13, 13);
     padding: 0.5rem;
-    margin: 1rem;
+     margin: 1rem;
+     text-align: center;
+ }
+ .programme:hover{
+    color: white;
+    background-color:#D12B63;
+}
+ .register div{
+     text-align: center;
  }
  /*course*/
  .course{
@@ -107,9 +124,14 @@ header{
      grid-column-gap: 0.4em;
  }
  h5{
+     text-transform: uppercase;
      color: #62011D;
-     font-size: 1rem;
+     font-size: 1.5rem;
      text-align: center;
+ }
+ h5:hover{
+     background-color: #62011D ;
+     color: white;
  }
  .course div{
      border: 2px  #8a795d transparent;
@@ -146,7 +168,7 @@ header{
      text-decoration-line: underline;
      text-shadow: 1px 1px blueviolet;
 }
-.deatil{
+.detail{
     text-transform: lowercase;
     margin: 3rem;
 }
@@ -180,6 +202,7 @@ input{
     height: 3rem;
     width: 22rem;
     margin-top: 2rem;
+    border-radius: 7%;
 }
 .icons{
     margin-top: 2rem;
