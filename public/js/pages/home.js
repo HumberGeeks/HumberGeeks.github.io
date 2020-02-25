@@ -8,7 +8,7 @@ export default class Home extends Page {
     <section class="profileview">
         <img src="img/3.jpg" alt="Student" class="student">
         <h3>Welcome To School of Humber</h3>
-        <p>Take theory, add practical learning, state-of-the-art labs and creative spaces and you will unleash innovative and entrepreneurial thinking. Integrate opportunities to move from a certificate to a diploma to a degree and beyond. Add in international partnerships to help you broaden your learning experience and develop intercultural skills – that’s the formula that makes Humber a global leader in polytechnic education.</p>
+        <p>The Humber Institute of Technology and Advanced Learning, commonly known as Humber College, was founded in 1967. Humber is a publicly funded college in Toronto, Ontario, Canada. Humber has three main campuses, Humber North campus, Lakeshore campus, and Humber Orangeville campus.Take theory, add practical learning, state-of-the-art labs and creative spaces and you will unleash innovative and entrepreneurial thinking. Integrate opportunities to move from a certificate to a diploma to a degree and beyond. Add in international partnerships to help you broaden your learning experience and develop intercultural skills – that’s the formula that makes Humber a global leader in polytechnic education.</p>
         <a href="#" class="link">Read more</a>
     </section>
     <section class="register">
@@ -43,22 +43,22 @@ export default class Home extends Page {
 <section class="Info">
     <div class="road-trip">
         <h2>What We Do in Road Trip</h2>
-        <p class="deatil">Not sure what to do next? Follow these steps to get into your dream program at Humber. Follow Steps 1 to 10 to navigate the admission process from finding your program to finding your way to Orientation, this road map will ensure that you get everything done on time.</p>
+        <p class="detail">Not sure what to do next? Follow these steps to get into your dream program at Humber. Follow Steps 1 to 10 to navigate the admission process from finding your program to finding your way to Orientation, this road map will ensure that you get everything done on time.</p>
         <a href="#" class="linkinfo">Read more --></a>
     </div>
     <div class="tour">
         <h2>Book a Tour</h2>
-        <p class="deatil">See where you'll be studying, learning and living.Taking a campus tour is the best way to see what it's really like to be a Humber student. Book now and discover everything you need to know about Humber. After you register, you will receive an email with a parking pass and campus map to help you get started.</p>
+        <p class="detail">See where you'll be studying, learning and living.Taking a campus tour is the best way to see what it's really like to be a Humber student. Book now and discover everything you need to know about Humber. After you register, you will receive an email with a parking pass and campus map to help you get started.</p>
         <a href="#" class="linkinfo">Read more --></a>
     </div>
     <div class="credit">
         <h2>Get Transfer Credit</h2>
-        <p class="deatil">TRANSFER IN FROM ANOTHER COLLEGE OR UNIVERSITY AND GET THE CREDIT YOU DESERVE.Whether you have completed a post-secondary program or are looking for a change, Humber has pathways available to you. Use our easy, online tools and step-by-step guides to determine your opportunities at Humber.</p>
+        <p class="detail">TRANSFER IN FROM ANOTHER COLLEGE OR UNIVERSITY AND GET THE CREDIT YOU DESERVE.Whether you have completed a post-secondary program or are looking for a change, Humber has pathways available to you. Use our easy, online tools and step-by-step guides to determine your opportunities at Humber.</p>
         <a href="#" class="linkinfo">Read more --></a>
     </div>
     <div class="involved">
         <h2>Get Involved</h2>
-        <p class="deatil">Humber has a reputation for being one of Canada’s most diverse education that offers something for everyone. More than 33,000 full-time students, including 6,500 international students pursuing bachelor’s degrees, diplomas, and postgraduate certificates in 180 programs on two main campuses in Toronto.</p>
+        <p class="detail">Humber has a reputation for being one of Canada’s most diverse education that offers something for everyone. More than 33,000 full-time students, including 6,500 international students pursuing bachelor’s degrees, diplomas, and postgraduate certificates in 180 programs on two main campuses in Toronto.</p>
         <a href="#" class="linkinfo">Read more --></a>
     </div>
 </section> `
