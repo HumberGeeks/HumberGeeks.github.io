@@ -1,0 +1,232 @@
+html{
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background-color:white;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+  }
+  li{
+    list-style: none;
+  }
+  .bold{
+    color: #d4df38;
+  }
+  .banner-section{
+    margin: 0;
+    background: url('../img/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    text-align: center;
+  }
+  
+  .banner-section h2{
+      font-size: 5em;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-top: 0;
+      padding-top: 2em;
+  }
+
+  .banner-heading a{
+    color: #000;
+    background: #d4df38;
+    border-color: #d4df38;
+    padding: 20px 60px 19px;
+    text-decoration: none;
+    border-radius: 1px;
+    min-height: 50px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    transition: .45s ease;
+    margin-top: 4em;
+  }
+  .banner-heading a:hover{
+    color: #d4df38;
+    background: #000;
+    border: 2px solid #d4df38;
+  }
+  
+  .details-section,.overview-section,.advantage-section,.other-main{
+    margin-top: 2em;
+    margin-left: 12em;
+    margin-right: 12em;
+  }
+  .details-heading{
+    background: black;
+    padding: 35px 0;
+    color: #fff;
+   
+  }
+  .details-heading h3{
+    margin: 0;
+    padding-left: 1.5em;
+    color: #d4df38;
+    font-weight: bolder;
+    font-size: 1.5em;
+  }
+  .details-content{
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    margin: 0 -1.7094%;
+  }
+  .details-content ul{
+    margin: 0 1.7094%;
+    width: 50%;
+  }
+  .details-content ul li,.advantage-grid ul li{
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  .overview-content article{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 1em 0;
+  }
+
+  .overview-content h3,.advantage-section h3{
+    font-weight: bolder;
+    font-size: 1.5em;
+  }
+  .advantage-heading{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 0.4rem;
+      grid-row-gap: 0.4rem;
+  }
+
+  .advantage-grid ul li{
+    list-style-type: disc;
+  }
+  
+  .advantage-grid{
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 1.5em;
+    margin: 0 1em 2em 0;
+  }
+
+  .other-programs{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 0.4rem;
+      grid-row-gap: 0.4rem;
+  }
+  .other-inner h3{
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  
+  .other-inner{
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 1.5em;
+    transition: .4s ease all;
+    cursor: pointer;
+    margin: 0 1em 2em 0;
+  }
+
+  .other-inner:hover{
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+  outline-offset: -2px;
+  background: #000;
+  color: white;
+}
+
+.other-inner h3:hover{
+  color: #d4df38;
+}
+
+/************ PRABHJOT'S CSS (STUDENT PAGE) ******/
+  
+
+
+.student_info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+  max-width: 60em;
+  margin-left: 48em;
+  margin-top: 7em;
+  background-color: #E6EAEE;
+  border-radius: 5px;
+}
+
+.student_details{
+  text-align: left;
+  margin-top: 1em;
+}
+
+.tagline{
+  text-align: center;
+  color: darkblue;
+}
+
+.student_img{
+  margin: 1em 0em;
+  margin-left: 1em;
+}
+
+.student_details ul li{
+  list-style-type: none;
+  font-size: 1.2em;
+}
+
+.student_details ul li p{
+  padding-top: 0.2em ;
+  line-height: 1em;
+}
+
+.bold{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: darkblue;
+}
+
+.bio_and_crclm{
+  margin-left: 48em;
+  margin-top: 8em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  max-width: 60em;
+}
+
+.bio,.crclm{
+  list-style-type: none;
+  padding-left: 1em;
+  border: 1px solid;
+}
+
+.notable_alumni_section{
+  text-align: center;
+  margin-top: 4em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tagline_2{
+  margin-top: 3em;
+  text-align: center;
+  color: darkblue;
+}
+
+.alumni{
+  border: 1px solid lightgray;
+  max-width: 20em;
+  border-radius: 0.4em;
+  margin-right: 1em;
+}
+
+.alumni:hover{
+  box-shadow: 5px 10px 5px lightgray;
+  cursor: pointer;
+}
+
