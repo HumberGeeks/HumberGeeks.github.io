@@ -9,30 +9,86 @@
   </head>
   <body>
 
-    <header class="header">
-
-      <nav>
-        <ul class="router">
-          <li><a href="/home" id="home">Home</a></li>
-          <li><a href="/program" id="program">Programs</a></li>
-          <li><a href="/student" id="student">Student</a></li>
-        </ul>
-      </nav>
+    <div>
+      <a href="#" class="nav">Home </a>
+      <a href="#" class="nav">Explore</a>
+      <a href="#" class="nav">Resources</a>
+      <a href="#" class="nav">Gallery</a>
+      <a href="#" class="nav">Reslovation</a>
+      <a href="#" class="nav">Global</a>
+      <a href="#" class="nav">About</a>
+      <a href="#" class="nav">Login</a><i class="fas fa-sign-in-alt" id="lin"></i>
+      <a href="#" class="nav">Login Out</a> <i class="fas fa-sign-in-alt" id="lout"></i>
+      <span class="nl" style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick = "closeNav()">&times;</a> 
+      <a href="#">Home </a>
+      <a href="#">Explore</a>
+      <a href="#">Resources</a>
+      <a href="#">Gallery</a>
+      <a href="#">Reslovation</a>
+      <a href="#">Global</a>
+      <a href="#">About</a>
+      <a href="#">Login</a>
+      <a href="#">Login Out</a>
+  </div>
+    <header class="head">
+  
+      <div class="logo_container">
+        <img src="img/logo.png" class="logo">
+      </div>
+      
+      <h1 class="heading">Humber School of Media & Technology</h1>
+      <div class="apply_btn">
+      <button type="button" class="apply">Apply Now</button>
+      </div>
     </header>
-
     <main class="main"></main>
 
-    <footer class="footer">
-      <p>Copyright 2020 &copy;</p>
-      <nav>
-        <ul class="router">
-            <li><a href="/home" id="home">Home</a></li>
-            <li><a href="/program" id="program">Programs</a></li>
-            <li><a href="/student" id="student">Student</a></li>
+    <footer class="footer-legal">
+      <section class="footer">
+        <h4 class="quick_links">Quick Links</h4>
+        <ul class="footer_links_container">
+          <li class="list_links"><a class="footer_links" href="#">Terms of Use</a></li>
+          <li class="list_links"><a class="footer_links" href="#">Privacy Policy</a></li>
+          <li class="list_links"><a class="footer_links" href="#">Accessibility Policy</a></li>
+          <li class="list_links"><a class="footer_links" href="#">Admission</a></li>
+          <li class="list_links"><a class="footer_links" href="#">Global</a></li>
+          <li class="list_links"><a class="footer_links" href="#">About Humber</a></li>
+          <li class="list_links"><a class="footer_links" href="#">Future Student</a></li>
+          <li class="list_links"><a class="footer_links" href="#">International Students</a></li>
+          <li class="list_links"><a class="footer_links" href="#">Current Student</a></li>
         </ul>
-      </nav>
+      </section>
+  
+      <section class="footer-link">
+        <input class="email" type="email" placeholder="ENTER YOUR E-Mail">
+        <button type="button" class="programme">Subscribe Now</button>
+        <h4 class="quick_links">@ phone no: 456-876-0987</h4>
+        <h4 class="quick_links">E-mail :- humbermail@gmail.com</h4>
+        <h4 class="quick_links">Registered Charity: 12345-67</h4>
+      </section>
+      <section>
+        <div class="icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+        <h4 class="quick_links">© Copyright 2018 by Springfield School.</h4>
+      </section>
     </footer>
-
+  
     <script src="/js/app.js" type="module"></script>
+    <script>
+    function openNav()
+  {
+    document.getElementById("mySidenav").style.width="250px";
+  }
+  function closeNav()
+  {
+    document.getElementById("mySidenav").style.width="0px";
+  }
+    </script>
   </body>
 </html>
