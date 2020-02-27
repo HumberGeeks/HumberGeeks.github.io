@@ -52,17 +52,17 @@ header{
     text-align: right;
     padding-left: 10rem;
  }
- a:active{
+ .link:active{
     color: deeppink;
 }
  /*promotional*/
  .promo{
-     height: 28em;
+     text-align: center;
      padding: 1em;
      display: grid;
      grid-template-columns: 2fr 2fr;
      grid-gap: 0.2em;
-     margin: 6em 25em;
+     margin: 1em 25em;
  }
  .student{
      height: 15rem;
@@ -76,18 +76,19 @@ header{
      margin-left: 2rem;
     
 } 
- h3{
+ .content_headings{
      margin-top: 0.1em;
      color: #F28256;
      text-decoration-line: underline;
      text-align: center;
  }
- p{
+ .content{
      margin: 2rem;
      color: black;
      text-align: justify;
  }
  .link{
+     
      color:#D12B63;
      background-color: white;
      border: 2px solid rgb(14, 13, 13);
@@ -116,20 +117,19 @@ header{
  }
  /*course*/
  .course{
-     margin-top: 1rem;
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
      margin-right: 15rem;
      margin-left: 15rem;
      grid-column-gap: 0.4em;
  }
- h5{
+ .content_headings2{
      text-transform: uppercase;
      color: #62011D;
      font-size: 1.5rem;
      text-align: center;
  }
- h5:hover{
+ .content_headings2:hover{
      background-color: #62011D ;
      color: white;
  }
@@ -162,7 +162,7 @@ header{
     margin-left: 2rem;
     margin-bottom: 2rem;
 }
- h2{
+ .content_headings3{
      margin-top: 1rem;
      text-align: center;
      text-decoration-line: underline;
@@ -173,17 +173,18 @@ header{
     margin: 3rem;
 }
 /*footer*/
-a{
+.footer_links{
     padding-left: 5rem;
     text-decoration-line: none;
     color: white;
     font-size: 1rem;
 }
-li{
+.list_links
+{
     list-style-type: none;
     padding-top: 0.5rem;
 }
-h4{
+.quick_links{
     padding-left: 2.7rem;
     padding-top: 2rem;
     margin-left: 2rem;
@@ -197,10 +198,10 @@ h4{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
-input{
-    padding-left: 5rem;
+.email
+{
+    padding-left: 4rem;
     height: 3rem;
-    width: 22rem;
     margin-top: 2rem;
     border-radius: 7%;
 }
@@ -275,14 +276,14 @@ margin-left:50px;
        display: none;
      }
       /*promotional*/
- .promo{
-     height: 48rem;
+ .promo
+ {
     padding: 1em;
-    display: grid;
+   
     grid-template-columns: 1fr;
     margin: 1em 0em;
 }
-p{
+.detail{
     font-size: 1rem;
     margin: 1rem;
     color: black;
@@ -307,8 +308,7 @@ p{
     font-size: 1rem;
    color:#D12B63;
    border: 2px solid rgb(14, 13, 13);
-   padding: 0.5rem;
-   margin: 1rem;
+  
 }
  /*course*/
  .course{
@@ -318,7 +318,7 @@ p{
     margin-right: 1rem;
     margin-left: 1rem;
 }
-h5{
+.content_headings2{
     color: #62011D;
     font-size: 1rem;
     text-align: center;
@@ -330,12 +330,14 @@ h5{
     margin: 2em 0em;
 }
  /*Information*/
- .Info{
+ .Info
+ {
     margin-top: 1rem;
     display: grid;
     grid-template-columns: 1fr;
-}
-.footer-legal{
+ }
+.footer-legal
+{
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding-left: 5rem;
@@ -344,22 +346,23 @@ h5{
     display: grid;
     grid-template-columns: 1fr;
 }
-a{
+.footer_links
+{
     padding-left: 1rem;
     text-decoration-line: none;
     color: white;
     font-size: 1rem;
 }
-li{
+.list_links{
     list-style-type: none;
     padding-top: 0.5rem;
 }
-h4{
-    padding-left: 0rem;
+.quick_links
+{
     padding-top: 2rem;
 }
-input{
-    padding-left: 5rem;
+.email{
+    padding-left: 4rem;
     height: 3rem;
     width: 10rem;
     margin-top: 2rem;
@@ -384,7 +387,7 @@ input{
     display: none;
 }
 }
-@media screen and (min-width: 800px) and  (max-width:1800px) {
+@media screen and (min-width: 600px) and  (max-width:1950px) {
     .nav{
         margin-top:8rem;
         font-size: 1.5rem;
@@ -393,13 +396,12 @@ input{
         text-align: right;
         padding-left: 4rem;
      }
-     .promo{
-        height: 34rem;
+     .promo
+     {
         padding: 1em;
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        grid-gap: 0.2em;
-        margin: 6em 15em;
+        margin:auto;
+        padding: auto;
+        display:block;
     }
     .student{
         height: 15rem;
@@ -414,45 +416,39 @@ input{
        
    }
     
-    h3{
+    .content_headings{
         color: #F28256;
         text-decoration-line: underline;
         text-align: center;
     }
-    p{
+    .content{
         margin: 2rem;
         color: black;
         text-align: justify;
     }
-    .link{
-        color:#D12B63;
-        border: 2px solid rgb(14, 13, 13);
-        padding: 0.5rem;
-        margin: 1rem;
-    }
+   
     .programme{
         font-size: 1rem;
        color:#D12B63;
        border: 2px solid rgb(14, 13, 13);
-       padding: 0.5rem;
-       margin: 1rem;
+       padding: 0.5em;
+       margin: 1em;
     }
     /*footer*/
-a{
+.footer_links{
     text-decoration-line: none;
     color: rgb(241, 238, 238);
     font-size: 1rem;
 }
-li{
-    list-style-type: none;
-}
-h4{
+
+.quick_links
+{
     padding-left: 5rem;
     padding-top: 2rem;
     margin-left: 0rem;
 }
 .footer-link{
-    padding-left: 2rem;
+    text-align: center;
 }
 .footer-legal{
     margin-top: 1rem;
@@ -463,7 +459,7 @@ h4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-input{
+.email{
     padding-left: 2rem;
     height: 1.5rem;
     width: 15rem;
