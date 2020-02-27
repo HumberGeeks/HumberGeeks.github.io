@@ -3,7 +3,18 @@ import Page from '../page.js'
 export default class Home extends Page {
 	constructor() {
 		super()
-		this.html = `<section class="promo">
+		this.html = `<header class="head">
+  
+		<div class="logo_container">
+		  <img src="img/logo.png" class="logo">
+		</div>
+		
+		<h1 class="heading">Humber School of Media & Technology</h1>
+		<div class="banner-heading">
+		<a href="#">Apply Now</a>
+		</div>
+	  </header>
+	  <section class="promo">
 		<section class="profileview">
 			<img src="img/3.jpg" alt="Student" class="student">
 			<h3 class="content_headings">Welcome To School of Humber</h3>
