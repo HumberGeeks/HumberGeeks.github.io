@@ -905,6 +905,19 @@ html{
     .container{
         width: 21em;
     }
+    .details-section, .overview-section, .advantage-section, .other-main{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .banner-section h2{
+        font-size: 2.8em;
+    }
+    .advantage-heading{
+        grid-template-columns: 1fr;
+    }
+    .other-programs{
+        grid-template-columns: 1fr;
+    }
 
   }
 
