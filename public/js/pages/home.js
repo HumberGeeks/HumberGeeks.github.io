@@ -38,7 +38,7 @@ export default class Home extends Page {
 	<section class="course">
 		<div>
 			<h5 class="content_headings2">Graphic Design for Web and Code</h5>
-			<p class="content">Upon graduating, our students hit the ground running ready to work as junior–intermediate graphic and web designers. Our program will prepare you with the necessary employment skills to find work in creative agencies, in-house design teams, multimedia firms, freelance opportunities and more. You will use your newly acquired knowledge and skills to create stunning marketing materials, impactful brand identities, engaging editorial and publication designs, and interactive websites that are mobile-ready and SEO compatible using HTML5, CSS, and jQuery; and that meet the needs and demands of small–large scale companies.</p>
+			<p class="content">Upon graduating, our students hit the ground running ready to work as junior–intermediate graphic and web designers. Our program will prepare you with the necessary employment skills to find work in creative agencies and freelance opportunities. You will use your newly acquired knowledge and skills to create stunning marketing materials, impactful brand identities, engaging editorial and publication designs, and interactive websites that are mobile-ready and SEO compatible using HTML5, CSS, and jQuery; and that meet the needs and demands of small–large scale companies.</p>
 		</div>
 		<div>
 			<h5 class="content_headings2">Web Design & Development</h5>

@@ -17,17 +17,17 @@ export default class Program extends Page {
 			<h3>Program Details</h3>
 			<div class="details-content">
 				<ul>
-					<li>Credential : <span class="bold">Certificate of Achievement</span></li>
-					<li>Program Code : <span class="bold">WD911</span></li>
-					<li>Length : <span class="bold">2 semesters</span></li>
-					<li>Program Code : <span class="bold">WD911</span></li>
-					<li>Campus : <span class="bold">North</span></li>
+					<li>Credential : <span class="bolder">Certificate of Achievement</span></li>
+					<li>Program Code : <span class="bolder">WD911</span></li>
+					<li>Length : <span class="bolder">2 semesters</span></li>
+					<li>Program Code : <span class="bolder">WD911</span></li>
+					<li>Campus : <span class="bolder">North</span></li>
 				</ul>
 				<ul>
-					<li>Start Date : <span class="bold">September 2020</span></li>
-					<li>Location : <span class="bold">North</span></li>
-					<li>Status : <span class="bold">Open</span></li>
-					<li>Internatonal status <span class="bold">Open</span></li>
+					<li>Start Date : <span class="bolder">September 2020</span></li>
+					<li>Location : <span class="bolder">North</span></li>
+					<li>Status : <span class="bolder">Open</span></li>
+					<li>Internatonal status <span class="bolder">Open</span></li>
 
 				</ul>
 			</div>
