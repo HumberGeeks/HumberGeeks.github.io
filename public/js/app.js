@@ -10,7 +10,7 @@ const $main =   document.querySelector('.main')
 const routes = {
 	home: new Home(),
 	program: new Program(),
-	student: new Student()
+	student: new Student()	
 }
 
 // Load new page content

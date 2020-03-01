@@ -35,9 +35,6 @@ export default class Program extends Page {
 		</div>
 	</section>
 
-
-	
-
 	<section class="overview-section">
 		<div class="overview-content">
 			<h3>Program Availability</h3>

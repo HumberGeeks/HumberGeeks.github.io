@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+
+*{
+    font-family: 'Cormorant Garamond' ;
+}
+
 /*   hemagi css home page      */
 
 /*header*/
 header{
     margin-top: 1rem;
     background-image: url(../img/5.jpg);
-    backface-visibility: inherit;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -13,11 +18,11 @@ header{
  }
  .heading
  {
-     display: block;
-     text-align: center;
-     font-size: 4rem;
-     color: black;
- }
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+    color: darkgoldenrod;
+    }
  .apply_btn
  {
      text-align: center;
@@ -76,7 +81,7 @@ header{
  .content_headings{
      margin-top: 0.1em;
      color: #F28256;
-     text-decoration-line: underline;
+     
      text-align: center;
  }
  .content{
@@ -98,12 +103,14 @@ header{
     background-color:#D12B63;
 }
  .programme{
-     font-size: 1rem;
+    font-size: 1rem;
     color:#D12B63;
     border: 2px solid rgb(14, 13, 13);
     padding: 0.5rem;
-     margin: 1rem;
-     text-align: center;
+    margin: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
  }
  .programme:hover{
     color: white;
@@ -112,6 +119,14 @@ header{
  .register div{
      text-align: center;
  }
+
+ .offd_prg{
+     text-align: center;
+     text-transform: uppercase;
+     color: #62011D;
+     font-size: 1.8em;
+ }
+
  /*course*/
  .course{
      display: grid;
@@ -127,42 +142,59 @@ header{
      text-align: center;
  }
  .content_headings2:hover{
-     background-color: #62011D ;
-     color: white;
+     cursor: pointer;
+     text-decoration: underline;
  }
  .course div{
      border: 2px  #8a795d transparent;
      border-radius: 5%;
      background-color: transparent;
-     margin: 6em 0em;
  }
  /*Information*/
  .Info{
-     margin-top: 1rem;
+     margin: 1rem 0em;
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr;
+     position: relative;
  }
  .road-trip{
      background-color: #9B7346;
+     position: relative;
+
  }
  .tour{
     background-color: #B4AFE0;
+    position: relative;
+
  }
  .credit{
     background-color: #FCCC46;
+    position: relative;
+
  }
  .involved{
     background-color: #9D5AA9;
+    position: relative;
+
  }
  .linkinfo{
-    color: blue;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+    color: darkblue;
 }
+
+.linkinfo:hover{
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+
  .content_headings3{
      margin-top: 1rem;
      text-align: center;
-     text-decoration-line: underline;
+     text-decoration: none;
      text-shadow: 1px 1px blueviolet;
 }
 .detail{
@@ -183,8 +215,7 @@ background-color: lightgray;
 .container
 {
     text-align: justify;
-    padding-top: 1em ;
-    margin-bottom:1em;
+    padding: 1em ;
 
 }
 .policy
@@ -451,7 +482,7 @@ margin-left:50px;
         color:black;
         text-decoration-line: none;
         text-align: right;
-        padding-left: 4rem;
+        padding-left: 4em;
      }
      .promo
      {
@@ -470,20 +501,22 @@ margin-left:50px;
     .register{
         background-color: #E5F2E7;
         margin-left: 2rem;
-       
+        margin-bottom: 2em;
    }
     
     .content_headings{
         color: #F28256;
-        text-decoration-line: underline;
+        text-decoration:none;
         text-align: center;
+        font-size: 1.5em;
+        padding-top: 0.7em;
     }
     .content{
         margin: 2rem;
         color: black;
         text-align: justify;
     }
-   
+    
     .programme{
         font-size: 1rem;
        color:#D12B63;
@@ -576,7 +609,6 @@ html{
     min-height: 50px;
     text-transform: uppercase;
     line-height: 1.5;
-    cursor: pointer;
     text-align: center;
     font-weight: 700;
     transition: .45s ease;
@@ -587,6 +619,8 @@ html{
     color: #d4df38;
     background: #000;
     border: 2px solid #d4df38;
+    cursor: pointer;
+
   }
   
   .details-section,.overview-section,.advantage-section,.other-main{
@@ -684,12 +718,32 @@ html{
 
 /**************** PRABHJOT-9540's CSS (STUDENT PAGE) *************/
 
+.main_nav_div
+{
+    text-align: center;
+    margin: 1.5em 0em;
+}
+
+.main_nav_div a{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.main_nav_div a:hover{
+    color: red;
+    transition: ease-in 0.3s;
+}
+
+.profileview{
+    margin:1em 0em;
+}
+
 .student_info{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0px;
     max-width: 60em;
-    margin-left: 48em;
+    margin-left: 15em;
     margin-top: 7em;
     background-color: #E6EAEE;
     border-radius: 5px;
@@ -703,6 +757,7 @@ html{
   .tagline{
     text-align: center;
     color: darkblue;
+    margin-top: 3em;
   }
   
   .student_img{
@@ -720,15 +775,18 @@ html{
     line-height: 1em;
   }
   
-  .bold{
+  .alm_img{
+    width: 20em; height: 17em; border-radius: 0.4em;
+  }
+  .bold2{
     font-weight: bold;
     text-transform: uppercase;
-    color: darkblue;
+    color:darkblue
   }
   
   .bio_and_crclm{
-    margin-left: 48em;
-    margin-top: 8em;
+    margin-left: 15em;
+    margin-top: 4em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
@@ -744,6 +802,7 @@ html{
   .notable_alumni_section{
     text-align: center;
     margin-top: 4em;
+    margin-bottom: 2em;
     display: flex;
     justify-content: space-around;
   }
@@ -765,3 +824,109 @@ html{
     box-shadow: 5px 10px 5px lightgray;
     cursor: pointer;
   }
+
+ 
+  @media (max-width: 576px) { 
+
+    .student_info{
+        display: inline-block;
+        background-color: #E6EAEE;
+        border-radius: 5px;
+        margin-left: 0.5em;
+        max-width: 25em;
+        margin-top: 1em;
+    }
+
+    .bio_and_crclm{
+        margin-left: 0.5em;
+        margin-top: 4em;
+        max-width: 60em;
+        display: inline-block;
+    }
+
+    .notable_alumni_section{
+        display: inline-block;
+        margin-left: 1em;
+    }
+
+    .bio, .crclm{
+        margin-top:1em;
+        padding-left: 0.5em;
+    }
+
+    .alumni{
+        margin-bottom: 1em;
+    }
+
+    .img{
+        width: 18em;
+        height: 15em;
+    }
+
+    .nl{
+        display: inline-block;
+        position: absolute;
+        top: 0em;
+        left: 0.5em;
+    }
+
+    .student_details ul li{
+        font-size: 1em;
+        margin-left: 0em;
+    }
+
+    .student_details ul{
+        padding-inline-start: 2em;
+        font-size: 0.8em;
+    }
+
+    .bio li{
+        font-size: 0.9em;
+    }
+    
+    .tagline h2{
+        font-size: 1em;
+        margin-top:5em;
+        text-align: left;
+        margin-left: 1em;
+    }
+
+    .alm_img{
+        width: 18em;
+        height: 15em;
+    }
+
+    .tagline_2{
+        font-size: 1em;
+        text-align: left;
+        margin-left: 0.5em;
+    }
+
+    .container{
+        width: 21em;
+    }
+
+  }
+
+  @media (max-width: 768px) { 
+
+    .nav{
+        padding-left: 0.5em;
+    }
+     
+    .student_info{
+        margin:0em 1em;
+    }
+
+    .bio_and_crclm{
+        margin:3em 2em;
+    }
+
+    .notable_alumni_section{
+        display: grid;
+        text-align: center;
+        margin-top: 4em;
+        margin-bottom: 2em;
+        justify-content: space-around;
+    }
+}
