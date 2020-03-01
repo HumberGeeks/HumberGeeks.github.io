@@ -46,6 +46,7 @@ header{
     width: 4rem; 
     height: 5rem;
  }
+
  .nav{
     margin-top:2rem;
     font-size: 1.5rem;
@@ -848,6 +849,10 @@ html{
         display: inline-block;
     }
 
+    .logo_container{
+        margin-top: 3em;
+    }
+
     .notable_alumni_section{
         display: inline-block;
         margin-left: 1em;
@@ -915,6 +920,7 @@ html{
     }
     .banner-section h2{
         font-size: 2.8em;
+        margin-top: 1em;
     }
     .advantage-heading{
         grid-template-columns: 1fr;
@@ -930,7 +936,7 @@ html{
     .nav{
         padding-left: 0.5em;
     }
-     
+    
     .student_info{
         margin:0em 1em;
     }
