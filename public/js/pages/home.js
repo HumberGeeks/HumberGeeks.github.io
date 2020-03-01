@@ -37,16 +37,16 @@ export default class Home extends Page {
 	<h2 class="offd_prg"> Programs we offer in this school </h2>
 	<section class="course">
 		<div>
-			<h5 class="content_headings2">Graphic Design for Web and Code</h5>
-			<p class="content">Upon graduating, our students hit the ground running ready to work as junior–intermediate graphic and web designers. Our program will prepare you with the necessary employment skills to find work in creative agencies and freelance opportunities. You will use your newly acquired knowledge and skills to create stunning marketing materials, impactful brand identities, engaging editorial and publication designs, and interactive websites that are mobile-ready and SEO compatible using HTML5, CSS, and jQuery; and that meet the needs and demands of small–large scale companies.</p>
+			<h5 class="content_headings2">User Experience (UX) Design</h5>
+			<p class="content">Humber’s User Experience (UX) Design graduate certificate simulates the interdisciplinary approaches needed to achieve an innovation process with a focus on design desirability, technological feasibility and business viability.</p>
 		</div>
 		<div>
-			<h5 class="content_headings2">Web Design & Development</h5>
-			<p class="content">Our graduates are prepared to apply for junior and intermediate-level positions within the web and interactive field. Depending on how you choose to specialize and market yourself, a diverse range of positions including front-end development, backend development, web design, UI/UX design and many others are within reach. Our alumni use their skills to gain employment in interactive agencies, development studios and as in-house web professionals in a large variety of companies throughout the Greater Toronto Area and abroad. Opportunities also include freelance work.</p>
+			<h5 class="content_headings2">Web Design and Interactive Media</h5>
+			<p class="content">Interactive media is a constantly growing, multidisciplinary industry that combines creative and technical skills to build the tools we depend on every day. These on-demand skills include visual design, coding, the ability to imagine what does not yet exist.</p>
 		</div>
 		<div>
-			<h5 class="content_headings2">UI/UX Design</h5>
-			<p class="content">Typical careers for graduates include interaction designer, user experience researcher, user experience designer, information architect, product designer, communication designer and information designer.</p>
+			<h5 class="content_headings2">Graphic Design for Print and Web</h5>
+			<p class="content">Motivated. Creative. Innovative. If these words describe you, then our intensive Graphic Design for Print and Web certificate program is for you. You will learn industry-best practices and how to communicate effective design solutions using composition, and web design.</p>
 		</div>
 	</section>
 	<section class="Info">
