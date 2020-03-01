@@ -19,6 +19,6 @@
   "homepage": "https://github.com/HumberGeeks/HumberGeeks.github.io#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "node": "^13.8.0"
+    "node": "^13.9.0"
   }
 }
