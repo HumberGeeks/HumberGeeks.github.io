@@ -834,6 +834,7 @@ html{
     text-align: center;margin-bottom: 4em;
   }
 
+  /***************** Mobile device breakpoint ***********************/
  
   @media (max-width: 576px) { 
 
@@ -940,6 +941,9 @@ html{
 
   }
 
+/************ Tablet and Ipad Breakpoints ************************/
+
+
   @media (max-width: 768px) { 
 
     .nav{
@@ -968,6 +972,9 @@ html{
 
     
 }
+
+/*************** For desktop and large screen devices ***************************/
+
 @media (max-width: 986px) { 
     .details-section, .overview-section, .advantage-section, .other-main{
         margin-left: 5em;
