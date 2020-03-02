@@ -1,6 +1,7 @@
 import Home from '/js/pages/home.js'
 import Program from '/js/pages/program.js'
 import Student from '/js/pages/student.js'
+import ErrPage from '/js/pages/errpage.js'
 
 // Store a few references
 const $routes = document.querySelectorAll('.router a')
@@ -10,15 +11,16 @@ const $main =   document.querySelector('.main')
 const routes = {
 	home: new Home(),
 	program: new Program(),
-	student: new Student()	
+	student: new Student(),
+	errpage: new ErrPage()	
 }
 
 // Load new page content
 const gotoPage = (name) => {
 	if (!routes[name]) {
-		name = 'home'  // Actually, do a "404"
+		name = 'errpage'  // Redirection to '404' page
 	}
-	$main.innerHTML = routes[name].getHTML() // Put the HTML in the container
+	$main.innerHTML = routes[name].getHTML() // Injecting HTML
 }
 
 // If someone uses the browser back/forward functionality, redirect
