@@ -18,7 +18,7 @@ const routes = {
 // Load new page content
 const gotoPage = (name) => {
 	if (!routes[name]) {
-		name = 'errpage'  // Redirection to '404' page
+		name = 'home'  // Redirection to '404' page
 	}
 	$main.innerHTML = routes[name].getHTML() // Injecting HTML
 }
