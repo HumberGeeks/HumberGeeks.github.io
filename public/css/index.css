@@ -1,0 +1,1007 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+
+*{
+    font-family: 'Cormorant Garamond' ;
+}
+
+/*   hemagi css home page      */
+
+
+header{
+    margin-top: 1rem;
+    background-image: url(../img/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 45rem;
+    border-radius: 1em;
+ }
+ .heading
+ {
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+    color: darkgoldenrod;
+    }
+
+ .apply_btn
+ {
+     text-align: center;
+ }
+
+ .apply{
+    margin-top: 10rem;
+    margin-right:5rem ;
+    height: 4rem;
+    width: 10rem;
+    border: 2px solid black;
+    color:#D12B63;
+    font-size: 1.5rem;
+ }
+
+ .apply:hover{
+     color: white;
+     background-color:#D12B63;
+ }
+
+.logo{
+    text-align: center;
+    margin: 2rem;
+    width: 4rem; 
+    height: 5rem;
+ }
+
+ .nav{
+    margin-top:2rem;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration-line: none;
+    text-align: right;
+    padding-left: 10rem;
+ }
+
+ .link:active{
+    color: deeppink;
+}
+ 
+ .promo{
+     text-align: center;
+     padding: 1em;
+     display: grid;
+     grid-template-columns: 2fr 2fr;
+     grid-gap: 0.2em;
+     margin: 1em 25em;
+ }
+ 
+ .student{
+     height: 15rem;
+     width: 35rem;
+     margin: auto;
+     padding: auto;
+     display: block;
+ }
+ 
+ .register{
+     background-color: #E5F2E7;
+     margin-left: 2rem;
+    
+} 
+ 
+.content_headings{
+     margin-top: 0.1em;
+     color: #F28256;
+     
+     text-align: center;
+ }
+ 
+ .content{
+     margin: 2rem;
+     color: black;
+     text-align: justify;
+ }
+ 
+ .link{
+     
+     color:black;
+     background-color: #d4df38;
+     border: 2px solid rgb(14, 13, 13);
+     padding: 0.5rem;
+     margin: 1.5rem;
+     text-align: center;
+ }
+
+ .link:hover{
+    color:#d4df38;
+    background-color:black;
+}
+ 
+.programme{
+    font-size: 1rem;
+    color:black;
+    border: 2px solid rgb(14, 13, 13);
+    background-color: #d4df38;
+    padding: 0.5rem;
+    margin: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+ }
+
+ .programme:hover{
+    background:black;
+    color:#d4df38;
+}
+
+.register div{
+     text-align: center;
+ }
+
+ .offd_prg{
+     text-align: center;
+     text-transform: uppercase;
+     color: #62011D;
+     font-size: 1.8em;
+ }
+
+
+ .course{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin-right: 15rem;
+     margin-left: 15rem;
+     grid-column-gap: 0.4em;
+ }
+
+ .content_headings2{
+     text-transform: uppercase;
+     color: #62011D;
+     font-size: 1.5rem;
+     text-align: center;
+ }
+
+ .content_headings2:hover{
+     cursor: pointer;
+     text-decoration: underline;
+ }
+
+ .course div{
+     border: 2px  #8a795d transparent;
+     border-radius: 5%;
+     background-color: transparent;
+ }
+
+/******* Information ******/ 
+
+ .Info{
+     margin: 0;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     position: relative;
+ }
+
+ .road-trip{
+     background-color: #9B7346;
+     position: relative;
+
+ }
+ .tour{
+    background-color: #B4AFE0;
+    position: relative;
+
+ }
+ .credit{
+    background-color: #FCCC46;
+    position: relative;
+
+ }
+ .involved{
+    background-color: #9D5AA9;
+    position: relative;
+
+ }
+ .linkinfo{
+    position: absolute;
+    bottom: 0;
+    left:40px;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.linkinfo:hover{
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+
+ .content_headings3{
+     margin-top: 1rem;
+     text-align: center;
+     text-decoration: none;
+     text-shadow: 1px 1px blueviolet;
+}
+.detail{
+    text-transform: lowercase;
+    margin: 3rem;
+}
+
+
+/*footer*/
+
+footer
+{
+background-color: lightgray;
+
+}
+.container div
+{
+    display: inline-block;
+}
+.container
+{
+    text-align: justify;
+    padding: 1em ;
+
+}
+.policy
+{
+    padding-right:7em;
+
+}
+.company
+{
+    padding-right:7em;
+}
+.bussiness
+{
+    padding-right:7em;
+}
+.help
+{
+padding-right: 7em;
+
+}
+
+.policy  li
+{
+padding-left:1em;
+padding-bottom: 1em;
+list-style: none; 
+   
+}
+.policy a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.company li
+{
+    padding-left:1em;
+    padding-bottom: 1em;
+    list-style: none;
+}
+.company a
+{
+    text-decoration: none;
+    color: black;
+}
+.bussiness li
+{
+    padding-left:1em;
+    padding-bottom: 1em;
+    list-style: none;
+}
+.bussiness a
+{
+    text-decoration: none;
+    color: black;
+}
+.help li
+{
+    padding-left:1em;
+    padding-bottom: 1em;
+    list-style: none;
+}
+.help a
+{
+    text-decoration: none;
+    color: black;
+}
+.social_links li
+{
+    padding-left:1em;
+    padding-bottom: 1em;
+    list-style: none;
+}
+.social_links a
+{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+.social_links i
+{
+    font-size: 1em;
+}
+
+/*---------------SideNav-------------*/
+.nl
+{
+    display: none;
+}
+.sidenav
+{
+    height: 100%;
+    width: 0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color: #111;
+    overflow-x:hidden;
+    transition:0.5s;
+    padding-top:60px;
+}
+
+.sidenav a
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration:none;
+    font-size:25px;
+    color: #818181;
+    display:block;
+    transition:0.3s;
+}
+.sidenav a:hover
+{
+    color:#f1f1f1;
+}
+
+.sidenav .closebtn
+{
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left:50px;
+}
+
+@media screen and (min-width:300px) and (max-width: 600px) {
+    header{
+       min-height: 35rem;
+       border-radius: 1em;
+     }
+     .heading
+     {
+         font-size: 2rem;
+     }
+     
+     .apply_btn{
+         margin-left: 2em;
+     }
+     .apply
+     {
+         text-align: center;
+     }
+     
+
+     .nav{
+       display: none;
+     }
+      /*promotional*/
+ .promo
+ {
+    padding: 1em;
+   
+    grid-template-columns: 1fr;
+    margin: 1em 0em;
+}
+.detail{
+    font-size: 1rem;
+    margin: 1rem;
+    color: black;
+    text-align: justify;
+}
+.student{
+   display: none;
+   visibility: hidden;
+}
+.register{
+    background-color: #E5F2E7;
+    margin-left: 0rem;
+    margin-top: 2rem;
+}
+.link{
+    color:black;
+    background-color: #d4df38;
+    border: 2px solid rgb(14, 13, 13);
+    padding: 0.5rem;
+    margin: 1rem;
+}
+.programme{
+    font-size: 1rem;
+   color:black;
+   background-color: #d4df38;
+   border: 2px solid rgb(14, 13, 13);
+  
+}
+ /*course*/
+ .course{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.content_headings2{
+    color: #62011D;
+    font-size: 1rem;
+    text-align: center;
+}
+.course div{
+    border: 2px  #8a795d transparent;
+    border-radius: 5%;
+    background-color: transparent;
+    margin: 2em 0em;
+}
+ /*Information*/
+ .Info
+ {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+.footer-legal
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.footer_links
+{
+    padding-left: 1rem;
+    text-decoration-line: none;
+    color: white;
+    font-size: 1rem;
+}
+.list_links{
+    list-style-type: none;
+    padding-top: 0.5rem;
+}
+.quick_links
+{
+    padding-top: 2rem;
+}
+.email{
+    padding-left: 4rem;
+    height: 3rem;
+    width: 10rem;
+    margin-top: 2rem;
+}
+.icons{
+    margin-top: 2rem;
+    margin-right: 4rem;
+    font-size: 2rem;
+    color: black;
+    padding-left: 5rem;
+}
+.nl
+{
+    display: block;
+}
+#lin
+{
+    display: none;
+}
+#lout
+{
+    display: none;
+}
+}
+@media screen and (min-width: 600px) and  (max-width:1950px) {
+    .nav{
+        margin-top:8rem;
+        font-size: 1.5rem;
+        color:black;
+        text-decoration-line: none;
+        text-align: right;
+        padding-left: 4em;
+     }
+     .promo
+     {
+        padding: 1em;
+        margin:auto;
+        padding: auto;
+        display:block;
+    }
+    .student{
+        height: 15rem;
+        width: 35rem;
+        margin: auto;
+        padding: auto;
+        display: block;
+    }
+    .register{
+        background-color: #E5F2E7;
+        margin-left: 2rem;
+        margin-bottom: 2em;
+   }
+    
+    .content_headings{
+        color: #F28256;
+        text-decoration:none;
+        text-align: center;
+        font-size: 1.5em;
+        padding-top: 0.7em;
+    }
+    .content{
+        margin: 2rem;
+        color: black;
+        text-align: justify;
+    }
+    
+    .programme{
+        font-size: 1rem;
+       color:black;
+       background-color: #d4df38;
+       border: 2px solid rgb(14, 13, 13);
+       padding: 0.5em;
+       margin: 1em;
+    }
+    /*footer*/
+.footer_links{
+    text-decoration-line: none;
+    color: rgb(241, 238, 238);
+    font-size: 1rem;
+}
+
+.quick_links
+{
+    padding-left: 5rem;
+    padding-top: 2rem;
+    margin-left: 0rem;
+}
+.footer-link{
+    text-align: center;
+}
+.footer-legal{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.email{
+    padding-left: 2rem;
+    height: 1.5rem;
+    width: 15rem;
+    margin-top: 2rem;
+}
+.icons{
+    margin-top: 2rem;
+    margin-right: 25rem;
+    font-size: 2rem;
+    color: black;
+    padding-left: 5rem;
+}
+}
+
+/********************* AVLEEN'S CSS *********************************/
+
+html{
+    box-sizing: border-box;
+}
+  body {
+    margin: 0;
+    background-color:white;
+  }
+ 
+li{
+    list-style: none;
+}
+
+.bolder{
+    color: #d4df38;
+}
+
+.banner-section{
+    margin: 0;
+    background: url('../img/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    text-align: center;
+}
+  
+  .banner-section h2{
+      font-size: 5em;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-top: 0;
+      padding-top: 1.5em;
+  }
+  .banner-heading{
+      text-align: center;
+  }
+  .banner-heading a{
+    color: #000;
+    background: #d4df38;
+    border-color: #d4df38;
+    padding: 20px 60px 19px;
+    text-decoration: none;
+    border-radius: 1px;
+    min-height: 50px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 700;
+    transition: .45s ease;
+    margin-top: 4em;
+
+  }
+  .banner-heading a:hover{
+    color: #d4df38;
+    background: #000;
+    border: 2px solid #d4df38;
+    cursor: pointer;
+
+  }
+  
+  .details-section,.overview-section,.advantage-section,.other-main{
+    margin-top: 2em;
+    margin-left: 12em;
+    margin-right: 12em;
+  }
+  .details-heading{
+    background: black;
+    padding: 35px 0;
+    color: #fff;
+   
+  }
+  .details-heading h3{
+    margin: 0;
+    padding-left: 1.5em;
+    color: #d4df38;
+    font-weight: bolder;
+    font-size: 1.5em;
+  }
+  .details-content{
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    margin: 0 -1.7094%;
+  }
+  .details-content ul{
+    margin: 0 1.7094%;
+    width: 50%;
+  }
+  .details-content ul li,.advantage-grid ul li{
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  .overview-content article{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 1em 0;
+  }
+
+  .overview-content h3,.advantage-section h3{
+    font-weight: bolder;
+    font-size: 1.5em;
+  }
+  .advantage-heading{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 0.4rem;
+      grid-row-gap: 0.4rem;
+  }
+
+  .advantage-grid ul li{
+    list-style-type: disc;
+  }
+  
+  .advantage-grid{
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 1.5em;
+    margin: 0 1em 2em 0;
+  }
+
+  .other-programs{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 0.4rem;
+      grid-row-gap: 0.4rem;
+  }
+  .other-inner h3{
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .other-inner{
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 1.5em;
+    transition: .4s ease all;
+    cursor: pointer;
+    margin: 0 1em 2em 0;
+  }
+
+  .other-inner:hover{
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+  outline-offset: -2px;
+  background: #000;
+  color: white;
+}
+
+.other-inner h3:hover{
+  color: #d4df38;
+}
+
+/**************** PRABHJOT-9540's CSS (STUDENT PAGE) *************/
+
+.main_nav_div
+{
+    text-align: center;
+    margin: 1.5em 0em;
+}
+
+.main_nav_div a{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.main_nav_div a:hover{
+    color: red;
+    transition: ease-in 0.3s;
+}
+
+.profileview{
+    margin:1em 0em;
+}
+
+.student_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    max-width: 60em;
+    margin-left: 15em;
+    margin-top: 7em;
+    background-color: #E6EAEE;
+    border-radius: 5px;
+  }
+  
+  .student_details{
+    text-align: left;
+    margin-top: 1em;
+  }
+  
+  .tagline{
+    text-align: center;
+    color: darkblue;
+    margin-top: 3em;
+  }
+  
+  .student_img{
+    margin: 1em 0em;
+    margin-left: 1em;
+  }
+  
+  .student_details ul li{
+    list-style-type: none;
+    font-size: 1.2em;
+  }
+  
+  .student_details ul li p{
+    padding-top: 0.2em ;
+    line-height: 1em;
+  }
+  
+  .alm_img{
+    width: 20em; height: 17em; border-radius: 0.4em;
+  }
+  .bold2{
+    font-weight: bold;
+    text-transform: uppercase;
+    color:darkblue
+  }
+  
+  .bio_and_crclm{
+    margin-left: 15em;
+    margin-top: 4em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    max-width: 60em;
+  }
+  
+  .bio,.crclm{
+    list-style-type: none;
+    padding-left: 1em;
+    border: 1px solid;
+  }
+  
+  .notable_alumni_section{
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .tagline_2{
+    margin-top: 3em;
+    text-align: center;
+    color: darkblue;
+  }
+  
+  .alumni{
+    border: 1px solid lightgray;
+    max-width: 20em;
+    border-radius: 0.4em;
+    margin-right: 1em;
+  }
+  
+  .alumni:hover{
+    box-shadow: 5px 10px 5px lightgray;
+    cursor: pointer;
+  }
+
+  .err{
+    text-align: center;margin-bottom: 4em;
+  }
+
+  /***************** Mobile device breakpoint ***********************/
+ 
+  @media (max-width: 576px) { 
+
+    .student_info{
+        display: inline-block;
+        background-color: #E6EAEE;
+        border-radius: 5px;
+        margin-left: 0.5em;
+        max-width: 25em;
+        margin-top: 1em;
+    }
+
+    .bio_and_crclm{
+        margin-left: 0.5em;
+        margin-top: 4em;
+        max-width: 60em;
+        display: inline-block;
+    }
+
+    .logo_container{
+        margin-top: 3em;
+    }
+
+    .notable_alumni_section{
+        display: inline-block;
+        margin-left: 1em;
+    }
+
+    .bio, .crclm{
+        margin-top:1em;
+        padding-left: 0.5em;
+    }
+
+    .alumni{
+        margin-bottom: 1em;
+    }
+
+    .img{
+        width: 18em;
+        height: 15em;
+    }
+
+    .nl{
+        display: inline-block;
+        position: absolute;
+        top: 0em;
+        left: 0.5em;
+    }
+
+    .student_details ul li{
+        font-size: 1em;
+        margin-left: 0em;
+    }
+
+    .student_details ul{
+        padding-inline-start: 2em;
+        font-size: 0.8em;
+    }
+
+    .bio li{
+        font-size: 0.9em;
+    }
+    
+    .tagline h2{
+        font-size: 1em;
+        margin-top:5em;
+        text-align: left;
+        margin-left: 1em;
+    }
+
+    .alm_img{
+        width: 18em;
+        height: 15em;
+    }
+
+    .tagline_2{
+        font-size: 1em;
+        text-align: left;
+        margin-left: 0.5em;
+    }
+
+    .container{
+        width: 21em;
+    }
+    .details-section, .overview-section, .advantage-section, .other-main{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .banner-section h2{
+        font-size: 2.8em;
+        margin-top: 1em;
+    }
+    .advantage-heading{
+        grid-template-columns: 1fr;
+    }
+    .other-programs{
+        grid-template-columns: 1fr;
+    }
+
+    .err{
+        text-align: left;margin-bottom: 4em;
+        margin-left: 1em;
+      }
+
+  }
+
+/************ Tablet and Ipad Breakpoints ************************/
+
+
+  @media (max-width: 768px) { 
+
+    .nav{
+        padding-left: 0.5em;
+    }
+    
+    .student_info{
+        margin:0em 1em;
+    }
+
+    .bio_and_crclm{
+        margin:3em 2em;
+    }
+
+    .notable_alumni_section{
+        display: grid;
+        text-align: center;
+        margin-top: 4em;
+        margin-bottom: 2em;
+        justify-content: space-around;
+    }
+    .details-section, .overview-section, .advantage-section, .other-main{
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    
+}
+
+/*************** For desktop and large screen devices ***************************/
+
+@media (max-width: 986px) { 
+    .details-section, .overview-section, .advantage-section, .other-main{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+}

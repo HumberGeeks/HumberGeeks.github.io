@@ -1,0 +1,24 @@
+{
+  "name": "HumberGeeks.github.io",
+  "version": "1.0.0",
+  "description": "# HUMBER MEDIA PROS - PRABHJOT164",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HumberGeeks/HumberGeeks.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HumberGeeks/HumberGeeks.github.io/issues"
+  },
+  "homepage": "https://github.com/HumberGeeks/HumberGeeks.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^13.9.0"
+  }
+}
