@@ -6,7 +6,7 @@
 
 /*   hemagi css home page      */
 
-/*header*/
+
 header{
     margin-top: 1rem;
     background-image: url(../img/5.jpg);
@@ -23,10 +23,12 @@ header{
     font-size: 4rem;
     color: darkgoldenrod;
     }
+
  .apply_btn
  {
      text-align: center;
  }
+
  .apply{
     margin-top: 10rem;
     margin-right:5rem ;
@@ -36,10 +38,12 @@ header{
     color:#D12B63;
     font-size: 1.5rem;
  }
+
  .apply:hover{
      color: white;
      background-color:#D12B63;
  }
+
 .logo{
     text-align: center;
     margin: 2rem;
@@ -55,10 +59,11 @@ header{
     text-align: right;
     padding-left: 10rem;
  }
+
  .link:active{
     color: deeppink;
 }
- /*promotional*/
+ 
  .promo{
      text-align: center;
      padding: 1em;
@@ -67,6 +72,7 @@ header{
      grid-gap: 0.2em;
      margin: 1em 25em;
  }
+ 
  .student{
      height: 15rem;
      width: 35rem;
@@ -74,22 +80,26 @@ header{
      padding: auto;
      display: block;
  }
+ 
  .register{
      background-color: #E5F2E7;
      margin-left: 2rem;
     
 } 
- .content_headings{
+ 
+.content_headings{
      margin-top: 0.1em;
      color: #F28256;
      
      text-align: center;
  }
+ 
  .content{
      margin: 2rem;
      color: black;
      text-align: justify;
  }
+ 
  .link{
      
      color:black;
@@ -99,11 +109,13 @@ header{
      margin: 1.5rem;
      text-align: center;
  }
+
  .link:hover{
     color:#d4df38;
     background-color:black;
 }
- .programme{
+ 
+.programme{
     font-size: 1rem;
     color:black;
     border: 2px solid rgb(14, 13, 13);
@@ -114,11 +126,13 @@ header{
     cursor: pointer;
     transition: ease-in-out 0.3s;
  }
+
  .programme:hover{
     background:black;
     color:#d4df38;
 }
- .register div{
+
+.register div{
      text-align: center;
  }
 
@@ -129,7 +143,7 @@ header{
      font-size: 1.8em;
  }
 
- /*course*/
+
  .course{
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
@@ -137,28 +151,34 @@ header{
      margin-left: 15rem;
      grid-column-gap: 0.4em;
  }
+
  .content_headings2{
      text-transform: uppercase;
      color: #62011D;
      font-size: 1.5rem;
      text-align: center;
  }
+
  .content_headings2:hover{
      cursor: pointer;
      text-decoration: underline;
  }
+
  .course div{
      border: 2px  #8a795d transparent;
      border-radius: 5%;
      background-color: transparent;
  }
- /*Information*/
+
+/******* Information ******/ 
+
  .Info{
      margin: 0;
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr;
      position: relative;
  }
+
  .road-trip{
      background-color: #9B7346;
      position: relative;
@@ -203,6 +223,8 @@ header{
     text-transform: lowercase;
     margin: 3rem;
 }
+
+
 /*footer*/
 
 footer
@@ -343,6 +365,7 @@ right: 25px;
 font-size: 36px;
 margin-left:50px;
 }
+
 @media screen and (min-width:300px) and (max-width: 600px) {
     header{
        min-height: 35rem;
@@ -568,31 +591,33 @@ margin-left:50px;
     padding-left: 5rem;
 }
 }
-  
 
+/********************* AVLEEN'S CSS *********************************/
 
 html{
     box-sizing: border-box;
-  }
+}
   body {
     margin: 0;
     background-color:white;
-    font-family: "Roboto",Helvetica,Arial,sans-serif;
   }
-  li{
+ 
+li{
     list-style: none;
-  }
-  .bolder{
+}
+
+.bolder{
     color: #d4df38;
-  }
-  .banner-section{
+}
+
+.banner-section{
     margin: 0;
     background: url('../img/background.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 80vh;
     text-align: center;
-  }
+}
   
   .banner-section h2{
       font-size: 5em;
@@ -700,7 +725,6 @@ html{
     font-size: 1.5em;
     margin: 0;
   }
-  
   
   .other-inner{
     border: 1px solid rgba(0,0,0,.125);
