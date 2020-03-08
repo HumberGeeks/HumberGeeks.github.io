@@ -2,6 +2,7 @@ import Home from '/js/pages/home.js'
 import Program from '/js/pages/program.js'
 import Student from '/js/pages/student.js'
 import ErrPage from '/js/pages/errpage.js'
+import Tim from '/js/pages/Tim.js'
 
 // Store a few references
 const $routes = document.querySelectorAll('.router a')
@@ -12,13 +13,14 @@ const routes = {
 	home: new Home(),
 	program: new Program(),
 	student: new Student(),
-	errpage: new ErrPage()	
+	errpage: new ErrPage(),
+	tim_berners_lee: new Tim()	
 }
 
 // Load new page content
 const gotoPage = (name) => {
 	if (!routes[name]) {
-		name = 'home'  // Redirection to '404' page
+		name = 'errpage'  // Redirection to '404' page
 	}
 	$main.innerHTML = routes[name].getHTML() // Injecting HTML
 }
@@ -35,6 +37,12 @@ window.addEventListener('load', event => {
 	// Get the page url and load the Page based on the pathname
 	const route = window.location.pathname.slice(1).split('/')[0]
 	gotoPage(route)
+
+	if (route == '') {
+		gotoPage('home')
+	} else {
+		gotoPage(route)
+	}
 
 	// For all `.router a`...
 	$routes.forEach($link => {

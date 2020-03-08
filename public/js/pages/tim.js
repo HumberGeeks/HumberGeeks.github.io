@@ -1,9 +1,8 @@
 import Page from '../page.js'		
 
-export default class Student extends Page {
+export default class Tim extends Page {
     constructor() {
-        super()    
-        const students= [{name:"Chandler Bing"}]   
+        super()       
         this.html = ` <div class="tagline">
         <h2>OUR BEST FROM THE NORTH CAMPUS</h2>
     </div>
@@ -13,7 +12,7 @@ export default class Student extends Page {
         </div>
         <div class="student_details">
          <ul>
-            <li><p> <span class="bold2"> Name: </span> ${students.name}</p></li>
+            <li><p> <span class="bold2"> Name: </span> Tim Berners Lee</p></li>
             <li><p> <span class="bold2"> Program: </span>Web Design and Development</p></li>
             <li><p><span class="bold2"> Term:</span> Winter 2020 </p></li>
             <li><p> <span class="bold2"> Level: </span>Post Secondary </p></li>
