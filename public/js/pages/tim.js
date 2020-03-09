@@ -2,7 +2,8 @@ import Page from '../page.js'
 
 export default class Tim extends Page {
     constructor() {
-        super()       
+        super()    
+        let students = this.getStudents();
         this.html = ` <div class="tagline">
         <h2>OUR BEST FROM THE NORTH CAMPUS</h2>
     </div>
@@ -12,12 +13,12 @@ export default class Tim extends Page {
         </div>
         <div class="student_details">
          <ul>
-            <li><p> <span class="bold2"> Name: </span> Tim Berners Lee</p></li>
-            <li><p> <span class="bold2"> Program: </span>Web Design and Development</p></li>
-            <li><p><span class="bold2"> Term:</span> Winter 2020 </p></li>
-            <li><p> <span class="bold2"> Level: </span>Post Secondary </p></li>
-            <li><p> <span class="bold2"> Term: </span>Winter 2020 </p></li>
-            <li><p> <span class="bold2"> School:</span> Faculty and Media Creative Arts </p></li>
+            <li><p> <span class="bold2"> Name: </span> ${students[1].name}</p></li>
+            <li><p> <span class="bold2"> Program: </span>${students[1].program}</p></li>
+            <li><p><span class="bold2"> Term:</span>${students[1].term}</p></li>
+            <li><p> <span class="bold2"> Level: ${students[1].level}</span> </p></li>
+            <li><p> <span class="bold2"> School:</span>${students[1].school}</p></li>
+            <li><p> <span class="bold2"> Graduation Year :</span> ${students[1].graduation_yr} </p></li>
          </ul>
         </div>
     </section>

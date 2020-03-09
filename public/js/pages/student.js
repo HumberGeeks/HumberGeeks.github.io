@@ -2,8 +2,9 @@ import Page from '../page.js'
 
 export default class Student extends Page {
     constructor() {
-        super()    
-        const students= [{name:"Chandler Bing"}]   
+        super()
+        let students = this.getStudents();
+        console.log(students[0].name);      
         this.html = ` <div class="tagline">
         <h2>OUR BEST FROM THE NORTH CAMPUS</h2>
     </div>
@@ -13,12 +14,12 @@ export default class Student extends Page {
         </div>
         <div class="student_details">
          <ul>
-            <li><p> <span class="bold2"> Name: </span> ${students.name}</p></li>
-            <li><p> <span class="bold2"> Program: </span>Web Design and Development</p></li>
-            <li><p><span class="bold2"> Term:</span> Winter 2020 </p></li>
-            <li><p> <span class="bold2"> Level: </span>Post Secondary </p></li>
-            <li><p> <span class="bold2"> Term: </span>Winter 2020 </p></li>
-            <li><p> <span class="bold2"> School:</span> Faculty and Media Creative Arts </p></li>
+            <li><p> <span class="bold2"> Name: </span> ${students[0].name}</p></li>
+            <li><p> <span class="bold2"> Program: </span>${students[0].program}</p></li>
+            <li><p><span class="bold2"> Term:</span>${students[0].term}</p></li>
+            <li><p> <span class="bold2"> Level: ${students[0].level}</span> </p></li>
+            <li><p> <span class="bold2"> School:</span>${students[0].school}</p></li>
+            <li><p> <span class="bold2"> Graduate Year: </span>${students[0].graduation_yr}</p></li>
          </ul>
         </div>
     </section>
@@ -47,8 +48,8 @@ export default class Student extends Page {
     <article class="notable_alumni_section">
         
         <div class="alumni">
-            <a href="https://en.wikipedia.org/wiki/Edge_(wrestler)"><img src="img/edge.jpg" alt="" class="alm_img"></a>
-            <h3>Edge</h3>
+            <a href="/tim_berners_lee"><img src="img/edge.jpg" alt="" class="alm_img"></a>
+            <h3>Tim Berners Lee</h3>
         </div>
         
         <div class="alumni">
