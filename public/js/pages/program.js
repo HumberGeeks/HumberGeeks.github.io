@@ -37,23 +37,21 @@ export default class Program extends Page {
 
 	<section class="overview-section">
 		<div class="overview-content">
-			<h3>Program Availability</h3>
+			<h3>Technologies Covered and Employer Advantages</h3>
 			<article>
-				If you describe yourself as creative, resourceful, detail-oriented and a problem solver, then Humber's Web Design and Development certificate program is for you. You will learn to critically analyze problems and apply best practices to plan, design and build websites/applications. You will build sites and apps from the ground up using the most up-to-date techniques and fundamental technologies. You will also learn to tackle technical challenges by developing strong troubleshooting and problem solving skills. The solutions you create along your journey will be curated into a captivating portfolio website at the end of the program.
-			</article>
-				<article>
 
-				Our unique project-based approach leads students in the program through the entire process of creating websites and web applications. You will build static and dynamic websites utilizing the most current versions of industry-standard applications and tools. Programming and design skills are taught with a focus on following best practices and established industry standards including designing websites that are mobile-ready, accessible and future-proof.
+				If you're looking for worthy and up to date employees for your firm, this is the right place to look into. Our unique project-based approach leads students in the program through the entire process of creating websites and web applications. With focus on best practices and established industry standards including designing websites that are mobile-ready, you get the best candidates from our pool of graduates to fullfill your firm's vacancy.
 			</article>
+
 			<article>
-				You will be constantly challenged to learn more through the escalating curriculum, while working in our dedicated computer lab. You will be guided by experienced faculty and industry professionals who are passionate about the web and related media in a practical, hands-on style of teaching. Opportunities to network with potential employers, alumni and other professionals will help you to build your own network of invaluable contacts to shape your future career.
+				This Web Design and Development certificate program covered all the main content for traditional and emerging technologies. Students learned to critically analyze problems and how to apply best practices to plan, design and build websites/applications. By building sites and apps from the ground up using the most up-to-date techniques and fundamental technologies such as starting from the basics from HTML, CSS and JavaScript to advanced back and front end frameworks and technologies. By building an up to date portfolio, each student is able to show off his skills to the projects learned throughout the journey of this program.
 			</article>
-			<article>
-				This program is not eligible for Ontario Student Assistance Program (OSAP). It is eligible for Second Career Funding. Further details and how to apply are found at ontario.ca/page/second-career.</article>
+				
+			
 		</div>
 	</section>
 	<section class="advantage-section">
-			<h3>The Humber Advantage</h3>
+			<h3>The Humber Advantage for Students and Employers</h3>
 
 		<div class="advantage-heading">
 			<div class="advantage-grid">
@@ -69,13 +67,14 @@ export default class Program extends Page {
 				
 			</div>
 			<div class="advantage-grid">
-				<h3>Skills You'll Develop</h3>
+				<h3>Skills Developed</h3>
 					<ul>
 						<li>CSS and JavaScript Animation</li>
 						<li>Scalable Vector Graphics</li>
 						<li>Real-time 3D Imagery using WebGL</li>
-						<li>Using open-source technologies, such as HTML5, CSS3, JavaScript AJAX, PHP, MYSQL and Apache </li>
+						<li>Using open-source technologies, such as HTML5, CSS3, JavaScript, Node.JS, MongoDB and Express </li>
 						<li>Develop projects using frameworks such as jQuery, Bootstrap, Angular, ThreeJS, and A-Frame </li>
+						<li> Portfolio and Own Website </li>
 					</ul>
 				
 				
@@ -85,27 +84,20 @@ export default class Program extends Page {
 		
 	</section>
 	<section class="overview-section">
-		<div class="overview-content">
-			<h3>Expert Faculty</h3>
-			<article>
-				Program co-ordinator Jennie Grimard is a graduate of the intensive student Graphic Design for Print and Web program who alongside her teaching runs a digital agency. Professors are industry professionals who actively pursue freelance work and their own projects, keeping their web-related skills up to date. They come from a mixture of design and programming backgrounds, which rounds out the expertise that is shared with the students.
-			</article>
-				
 		
-		</div>
 	</section>
 	<section class="overview-section">
 		<div class="overview-content">
-			<h3>Your Career</h3>
+			<h3>Career Opprotunities Opened</h3>
 			<article>
-				Our graduates are prepared to apply for junior and intermediate-level positions within the web and interactive field. Depending on how you choose to specialize and market yourself, a diverse range of positions including front-end development, backend development, web design, UI/UX design and many others are within reach. Our alumni use their skills to gain employment in interactive agencies, development studios and as in-house web professionals in a large variety of companies throughout the Greater Toronto Area and abroad. Opportunities also include freelance work.
+				Graduates are prepared to apply for junior and intermediate-level positions within the web and interactive field. Depending on how you choose to specialize and pick a candidate as per the requirements of your company/firm, students can be hired for a diverse range of positions including front-end development, backend development, web design, UI/UX design and many others are within reach. Skills gained by our alumni are job ready and also ready for employment in interactive agencies, development studios and as in-house web professionals in a large variety of companies throughout the Greater Toronto Area and abroad. Some Graduates also choose freelance work and have been able to find clients successfully as well.
 			</article>
 				
 		
 		</div>
 	</section>
 	<section class="other-main">
-		<h2>Other Programs</h2>
+		<h2>Other Programs </h2>
 		<div class="other-programs">  
 			<div class="other-inner">
 				<h3>User Experience (UX) Design</h3>
