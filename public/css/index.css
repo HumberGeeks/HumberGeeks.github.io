@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caladea|IBM+Plex+Sans&display=swap');
 
 *{
-    font-family: 'Cormorant Garamond' ;
+    font-family: 'Caladea', sans-serif;
 }
 
 /*   hemagi css home page      */
@@ -857,6 +857,7 @@ li{
   .err{
     text-align: center;margin-bottom: 4em;
   }
+
 
   /***************** Mobile device breakpoint ***********************/
  

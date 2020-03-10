@@ -2,7 +2,9 @@ import Home from '/js/pages/home.js'
 import Program from '/js/pages/program.js'
 import Student from '/js/pages/student.js'
 import ErrPage from '/js/pages/errpage.js'
-import Tim from '/js/pages/Tim.js'
+import Edge from '/js/pages/edge.js'
+import Nicole from '/js/pages/nicole.js'
+import Dina from '/js/pages/dina.js'
 
 // Store a few references
 const $routes = document.querySelectorAll('.router a')
@@ -14,7 +16,9 @@ const routes = {
 	program: new Program(),
 	student: new Student(),
 	errpage: new ErrPage(),
-	tim_berners_lee: new Tim()	
+	edge: new Edge(),
+	nicole: new Nicole(),
+	dina : new Dina()
 }
 
 // Load new page content
